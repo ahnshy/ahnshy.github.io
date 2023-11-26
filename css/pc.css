@@ -1,0 +1,76 @@
+﻿@charset "utf-8";
+
+/*
+-----------------------------------------------------------------
+.Name : pc.css
+.Content :아신아이
+-----------------------------------------------------------------
+*/
+
+/* reset */
+html, body {height:100%;height:100%;-webkit-text-size-adjust:none}
+h1, h2, h3, h4, h5, h6 {font-size:100%}
+html, body, div, iframe, form, fieldset, legend, input, select, button, textarea, h1, h2, h3, h4, h5, h6, p, blockquote, address, dl, dt, dd, ol, ul, li, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0}
+ol, ul, li {list-style:none}
+img, fieldset {border:0 none}
+input, button, select, textarea, label {vertical-align:middle; resize:none}
+input, textarea {-webkit-appearance:none; -webkit-border-radius:0}
+input[type="checkbox"] {-webkit-appearance:checkbox}
+input[type="radio"] {-webkit-appearance:radio;-webkit-border-radius:10px}
+input[type="button"], input[type="submit"], input[type="reset"] {cursor:pointer}
+button {border:0 none; background:transparent; cursor:pointer}
+button, input[type="reset"], input[type="button"], input[type="submit"] {line-height:normal !important}
+table {border-collapse:collapse; border-spacing:0}
+address, em, optgroup {font-style:normal}
+hr {display:none}
+pre {white-space: pre-line !important}
+legend {position:absolute; top:0; left:-99999px; width:0; height:0; font-size:0; line-height:0; overflow:hidden}
+caption {width:0; height:0; font-size:0; line-height:0; text-indent:-99999px; overflow:hidden}
+.blind {position:absolute; top:0; left:0; width:1px; height:1px; text-indent:10px; white-space:nowrap; overflow:hidden}
+.hide {width:0; height:0; margin:0; padding:0; visibility:hidden; font-size:0; line-height:0; position:absolute; top:0; left:0; overflow:hidden}
+header, footer, section, article, aside, nav, hgroup, details, menu, figure, figcaption {display:block}
+/* default_font */
+body, input, select, button, textarea, table {color:#333; font-size:12px; font-family:Verdana, Arial, Sans-serif}
+/* default_link */
+a {color:#333; text-decoration:none}
+
+/* main */
+body {background:#052440 url(../images/download/bg_down.jpg) center no-repeat}
+#wrap_pc {position:relative;width:100%;height:100%;}
+#wrap_pc .top_pc {width:100%;height:100%;min-height:100%;text-align:center} */
+#wrap_pc .top_pc .top {width:1000px;margin:0 auto;text-align:center}
+#wrap_pc .top_pc .top h1.logo {padding:55px 0 30px;text-align:center}
+#wrap_pc .top_pc .top .mungu {font-size:38px;line-height:26px;color:#fff;letter-spacing:-0.08em}
+#wrap_pc .top_pc .top .mungu span {display:block;font-size:24px;}
+
+#wrap_pc .card_wrap {position:absolute;left:49.3%;top:50%;width:1000px;height:429px;margin-left:-239px;margin-top:-160px;z-index:99;}	/* 흰색 라운드 배경 */
+#wrap_pc .card_wrap li {float:left;width:50%;height:435px;border:1px solid #ddd;background-color:#fff;-moz-box-shadow:0 10px 15px rgba(0, 0, 0, .1);-webkit-box-shadow:0 10px 15px rgba(0, 0, 0, .1);box-shadow:0 10px 15px rgba(0, 0, 0, .1);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;-o-border-radius:10px;margin-right:25px;}
+#wrap_pc .card_wrap li.last {margin-right:0}
+#wrap_pc .card_wrap li .card {padding:0 25px;letter-spacing:-0.05em;text-align:center}
+#wrap_pc .card_wrap li .card dt {clear:both;padding:40px 0 20px;}
+#wrap_pc .card_wrap li .card dd {clear:both}
+#wrap_pc .card_wrap li .card dd.tit1 {font-size:20px;font-weight:bold;color:#399ca5;border-top:1px solid #eee;border-bottom:1px solid #eee;padding:15px 0}
+#wrap_pc .card_wrap li .card dd.stit1 {height:80px;font-size:15px;line-height:18px;color:#767676;margin:25px 0 22px;overflow:hidden;text-align:left;padding:0 85px 0}
+#wrap_pc .card_wrap li .card dd.stit1 span {color:#1f95a0}
+#wrap_pc .card_wrap li .card dd.tit2 {font-size:20px;font-weight:bold;color:#dd8001;border-top:1px solid #eee;border-bottom:1px solid #eee;padding:15px 0}
+#wrap_pc .card_wrap li .card dd.stit2 {height:60px;font-size:14px;line-height:20px;color:#767676;margin:25px 0 35px;overflow:hidden}
+#wrap_pc .card_wrap li .card dd.stit2 span {color:#dd8001}
+#wrap_pc .card_wrap li .card dd.tit3 {
+	font-size:20px;
+	font-weight:bold;
+	color:#A4AB1F;
+	border-top:1px solid #eee;
+	border-bottom:1px solid #eee;
+	padding:15px 0
+}
+#wrap_pc .card_wrap li .card dd.stit3 {height:60px;font-size:14px;line-height:60px;color:#767676;margin:25px 0 25px;overflow:hidden}
+#wrap_pc .card_wrap li .card dd.stit3 span {color:#dd8001}
+#wrap_pc .card_wrap li .card dd.btn {clear:both;width:100%;text-align:center}
+#wrap_pc .card_wrap li .card dd.btn .btn_download {display:block;width:212px;height:60px;margin:0 auto;background:url(../images/download/btn_download.png) center top no-repeat}
+#wrap_pc .card_wrap li .card dd.btn .btn_download:hover {background:url(../images/download/btn_download_on.png) center top no-repeat}
+#wrap_pc .card_wrap li .card dd.btn .btn_download span {visibility:hidden}
+
+#wrap_pc .tel {clear:both;width:280px;margin:-130px auto 0;overflow:hidden}
+#wrap_pc .tel dt {float:left;width:75px;height:102px}
+#wrap_pc .tel dd {float:left;width:205px;padding:8px 0 0;font-size:16px;line-height:20px;color:#333;letter-spacing:-0.05em}
+#wrap_pc .tel dd span {display:block;color:#767676;font-size:14px}
