@@ -1,4 +1,4 @@
-/* value Officecore? */
+/* value FireCloud */
 .value-content {
     padding-top: 135px;
     padding-bottom: 50px;
@@ -825,7 +825,7 @@ select.no-radius {
 }
 
 @media (max-width: 992px) {
-    /* value Officecore? */
+    /* value FireCloud */
     .value-content {
         padding-top: 90px;
     }
@@ -893,7 +893,7 @@ select.no-radius {
 }
 
 @media (max-width: 767px) {
-    /* value Officecore? */
+    /* value FireCloud */
     .value-content {
         padding-top: 70px;
     }
@@ -987,7 +987,7 @@ select.no-radius {
 }
 
 @media (max-width: 480px) {
-    /* value Officecore? */
+    /* value FireCloud */
     .value-content {
         padding-top: 60px;
         padding-bottom: 20px;
